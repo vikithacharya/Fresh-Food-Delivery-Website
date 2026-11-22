@@ -1,0 +1,635 @@
+/* Navbar Navigation Items */
+#nav-Item1, #nav-Item2, #nav-Item3, #nav-Item4, #nav-Item5 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    color: rgb(20, 38, 131);
+    transition: all 0.3s ease;
+    margin: 0 10px;
+}
+
+#nav-Item1:hover, #nav-Item2:hover, #nav-Item3:hover, #nav-Item4:hover, #nav-Item5:hover {
+    color: rgb(208, 178, 0);
+    font-weight: 600;
+}
+
+.nav-logo{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.navbar {
+    z-index: 1000;
+    transition: all 0.3s ease;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    color: rgb(36, 10, 226) !important;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.follow-us-heading {
+    color: rgb(36, 10, 226);
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.follow-us-description {
+    color: #666;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.social-media-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(36, 10, 226);
+    color: white;
+    border-radius: 50%;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-size: 20px;
+}
+
+.social-media-link:hover {
+    background-color: rgb(208, 178, 0);
+    transform: translateY(-5px);
+}
+
+.footer-section {
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+.footer-text {
+    margin: 0;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .banner-heading {
+        font-size: 32px;
+    }
+
+    .banner-para {
+        font-size: 16px;
+    }
+
+    .selection-heading,
+    .menu-section-heading,
+    .healthy-food-heading,
+    .food-payment-heading,
+    .follow-us-heading,
+    .faq-heading,
+    .testimonials-heading,
+    .thanking-customer-heading {
+        font-size: 28px;
+    }
+
+    .menu-item-image {
+        height: 150px;
+    }
+}
+
+@media (max-width: 576px) {
+    .banner-heading {
+        font-size: 24px;
+    }
+
+    .banner-para {
+        font-size: 14px;
+    }
+
+    .selection-heading,
+    .menu-section-heading,
+    .healthy-food-heading,
+    .food-payment-heading,
+    .follow-us-heading,
+    .faq-heading,
+    .testimonials-heading,
+    .thanking-customer-heading {
+        font-size: 22px;
+    }
+
+    .social-media-link {
+        width: 45px;
+        height: 45px;
+        font-size: 18px;
+        margin: 0 5px;
+    }
+
+    .custome-button,
+    .custome-outline,
+    .custome-food-button {
+        padding: 8px 16px;
+        font-size: 13px;
+        margin: 5px;
+    }
+}
+
+.banner-section-bg-container{
+    background-image: url("https://t3.ftcdn.net/jpg/02/97/67/70/360_F_297677001_zX7ZzRq8DObUV5IWTHAIhAae6DuiEQh4.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.banner-section-bg-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+.banner-section-bg-container > .text-center {
+    position: relative;
+    z-index: 2;
+}
+
+.banner-heading{
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    animation: slideDown 0.8s ease-out;
+}
+
+.banner-para{
+    color: rgba(255, 255, 255, 0.95);
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 30px;
+    animation: fadeIn 1s ease-out;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.custome-button{
+    background-color: rgb(16, 11, 150);
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.custome-button:hover{
+    background-color: rgb(11, 150, 36);
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.custome-outline{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 28px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+.custome-outline:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: rgb(208, 178, 0);
+}
+
+.selection-heading{
+    color: rgb(36, 10, 226);
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.selection-description{
+    color: #666;
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.food-icon{
+    width: 100px;
+    height: 100px;
+    padding-top: 20px;
+    transition: transform 0.3s ease;
+}
+
+.selection-part-card-item:hover .food-icon {
+    transform: scale(1.1);
+}
+
+.selection-card-heading{
+    color: rgb(36, 10, 226);
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 15px;
+}
+
+.selection-card-description{
+    color: #555;
+    font-size: 16px;
+    padding-top: 15px;
+    line-height: 1.6;
+}
+
+.selection-part-card-item{
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 20px;
+    border: 1px solid #e0e0e0;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+ 
+.selection-part-card-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.offers{
+    color: rgb(208, 178, 0);
+    font-weight: 700;
+    font-style: italic;
+    background-color: rgba(208, 178, 0, 0.1);
+    padding: 2px 6px;
+    border-radius: 3px;
+}
+
+#explore-menu-section {
+  background-color: white;
+}
+
+#selection-part {
+    background-color: #f8f9fa;
+}
+
+#healthy-food-section {
+    background-color: #f8f9fa;
+}
+
+#food-payment-section {
+    background-color: white;
+}
+
+#testimonials-section {
+    background-color: #f8f9fa;
+}
+
+#faq-section {
+    background-color: white;
+}
+
+#follow-us-section {
+    background-color: white;
+}
+
+/* Testimonials */
+.testimonials-heading {
+    color: rgb(36, 10, 226);
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.testimonials-description {
+    color: #666;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.testimonial-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: all 0.3s ease;
+    margin-bottom: 20px;
+    border-left: 5px solid rgb(208, 178, 0);
+}
+
+.testimonial-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.stars {
+    color: rgb(208, 178, 0);
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.testimonial-text {
+    color: #666;
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.testimonial-author {
+    color: rgb(36, 10, 226);
+    font-weight: 600;
+}
+
+/* FAQ */
+.faq-heading {
+    color: rgb(36, 10, 226);
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.faq-item {
+    background-color: #f8f9fa;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border-left: 4px solid rgb(208, 178, 0);
+    transition: all 0.3s ease;
+}
+
+.faq-item:hover {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.faq-question {
+    color: rgb(36, 10, 226);
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.faq-answer {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.menu-section-heading {
+  color: rgb(36, 10, 226);
+  font-size: 36px;
+  font-weight: 700;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.menu-section-description {
+  color: #666;
+  font-size: 18px;
+  font-weight: 400;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.menu-item-image {
+  border-radius: 16px;
+  transition: transform 0.3s ease;
+  object-fit: cover;
+  height: 200px;
+}
+
+.menu-item-card:hover .menu-item-image {
+  transform: scale(1.05);
+}
+
+.menu-card-title {
+  color: #333;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.menu-item-link {
+  color: rgb(208, 178, 0);
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+}
+
+.menu-item-link:hover {
+  color: rgb(36, 10, 226);
+  gap: 12px;
+}
+
+.menu-item-card {
+  border-radius: 16px;
+  transition: all 0.3s ease;
+  background-color: white;
+}
+
+.menu-item-card:hover {
+  transform: translateY(-5px);
+}
+
+.healthy-food-image{
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.healthy-food-image:hover {
+    transform: scale(1.05);
+}
+
+.healthy-food-heading{
+    color: rgb(36, 10, 226);
+    font-size: 36px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.healthy-food-description{
+    color: #666;
+    font-size: 16px;
+    padding-bottom: 20px;
+    text-align: left;
+    line-height: 1.7;
+}
+
+.custome-food-button{
+    background-color: rgb(208, 178, 0);
+    color: white;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.custome-food-button:hover{
+    background-color: rgb(36, 10, 226);
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.container{
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+    display: block !important;
+    padding: 0 15px !important;
+}
+
+.payment-discount-logo{
+    width: 50%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.food-payment-heading{
+    color: rgb(36, 10, 226);
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.food-payment-description{
+    color: #666;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 30px;
+    line-height: 1.7;
+}
+
+.payment-method-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.payment-method-logo{
+    max-width: 50px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.payment-method-logo:hover {
+    transform: scale(1.1);
+}
+
+.thanking-customer-section{
+    background-color: #f0e6ff;
+}
+
+.thanking-customer-heading{
+    color: rgb(36, 10, 226);
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.thanking-customer-description{
+    color: #666;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.gift-customer-logo{
+    max-width: 50%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.gift-customer-logo:hover {
+    transform: scale(1.05);
+}
+
+.footer-logo{
+    width: 80px;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.gift-voucher-heading{
+    color:gold;
+    font-size:24px;
+    border-radius:5px;
+}
+
+.footer-heading{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}

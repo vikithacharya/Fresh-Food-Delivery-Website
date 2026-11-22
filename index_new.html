@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresh Food Track Delivery - Best Food at Your Doorstep</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/727d23d1f2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
+         <div class="container">
+       <a class="navbar-brand font-weight-bold" href="#banner">
+         <img src="https://www.shutterstock.com/image-vector/food-truck-company-logo-design-260nw-2308781077.jpg" class="nav-logo" alt="Fresh Food Logo"/>
+         Fresh Food Track Delivery
+       </a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+         <div class="navbar-nav m-auto">
+           <a class="nav-link active" id="nav-Item1" href="#selection-part">Why Choose Us?</a>
+           <a class="nav-link" id="nav-Item2" href="#explore-menu-section">Explore Menu</a>
+           <a class="nav-link" id="nav-Item3" href="#food-payment-section">Delivery & Payment</a>
+           <a class="nav-link" id="nav-Item4" href="#testimonials-section">Reviews</a>
+           <a class="nav-link" id="nav-Item5" href="#follow-us-section">Follow Us</a>
+         </div>
+       </div>
+     </div>
+    </nav>
+
+    <div id="banner" class="banner-section-bg-container">
+         <div class="text-center">
+             <h1 class="banner-heading">Delicious Food Delivered to Your Doorstep</h1>
+             <p class="banner-para">Enjoy your favorite dishes without leaving the comfort of your home.</p>
+                 <button class="custome-button" onclick="document.getElementById('explore-menu-section').scrollIntoView({behavior: 'smooth'})">View Menu</button>
+                 <button class="custome-outline" onclick="document.getElementById('food-payment-section').scrollIntoView({behavior: 'smooth'})">Order Now</button>
+         </div>
+     </div>
+
+    <div id="selection-part" class="pt-5 pb-5">
+         <div class="container">
+             <div class="row">
+                 <div class="col-12">
+                     <h1 class="selection-heading">Why Choose Us?</h1>
+                     <p class="selection-description">We offer the best food delivery service in town, with a wide variety of delicious options to choose from.</p>
+                 </div>
+                 <div class="col-12 col-md-4">
+                     <div class="selection-part-card-item">
+                         <div class="text-center">
+                         <img src="https://cdn-icons-png.magnific.com/512/11644/11644980.png" class="food-icon" alt="Food Service Icon"/>
+                         <h2 class="selection-card-heading mt-3">Food Service</h2>
+                         <p class="selection-card-description">We offer a wide variety of delicious food options to satisfy every craving. Experience fine dining at the comfort of your home. All our orders are carefully packed for your convenience.</p>
+                     </div>
+                     </div>
+                 </div>
+
+                 <div class="col-12 col-md-4">
+                     <div class="selection-part-card-item">
+                         <div class="text-center">
+                         <img src="https://cdn-icons-png.magnific.com/512/11923/11923096.png" class="food-icon" alt="Fresh Ingredients Icon"/>
+                         <h2 class="selection-card-heading mt-3">Fresh Ingredients</h2>
+                         <p class="selection-card-description">We use only the freshest ingredients to create our delicious dishes, ensuring the highest quality and taste. The Fresh Food group provides the best ingredients for your satisfaction.</p>
+                     </div>
+                     </div>
+                 </div>
+
+                 <div class="col-12 col-md-4">
+                     <div class="selection-part-card-item">
+                         <div class="text-center">
+                         <img src="https://cdn-icons-png.magnific.com/512/12306/12306884.png" class="food-icon" alt="Best Offer Icon"/>
+                         <h2 class="selection-card-heading mt-3">Best Offer</h2>
+                         <p class="selection-card-description">
+                             Enjoy our limited-time offers and discounts on a variety of delicious dishes. Food Coupons & offers up to 
+                             <span class="offers">50% OFF</span> and Exclusive promo code on All online Food Orders.</p>
+                     </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+   
+     <div id="explore-menu-section" class="pt-5 pb-5">
+       <div class="container">
+         <div class="row">
+           <div class="col-12">
+             <h1 class="menu-section-heading">Explore Menu</h1>
+             <p class="menu-section-description">Discover our diverse menu, featuring a wide range of delicious dishes to satisfy every craving.</p>
+           </div>
+           <div class="col-12 col-md-6 col-lg-3">
+             <div class="shadow menu-item-card p-3 mb-3">
+               <img
+                 src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/em-ginger-fried-img.png"
+                 class="menu-item-image w-100"
+                 alt="Non-Veg Starters"
+               />
+               <h3 class="menu-card-title">Non-Veg Starters</h3>
+               <a href="https://bangaloretoday.in/best-non-veg-restaurants-in-bangalore/" class="menu-item-link">
+                 View All
+                 <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                   <path
+                     fill-rule="evenodd"
+                     d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                   />
+                 </svg>
+               </a>
+             </div>
+           </div>
+           <div class="col-12 col-md-6 col-lg-3">
+             <div class="shadow menu-item-card p-3 mb-3">
+               <img
+                 src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/em-veg-starters-img.png"
+                 class="menu-item-image w-100"
+                 alt="Veg Starters"
+               />
+               <h3 class="menu-card-title">Veg Starters</h3>
+               <a href="#" class="menu-item-link">
+                 View All
+                 <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                   <path
+                     fill-rule="evenodd"
+                     d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                   />
+                 </svg>
+               </a>
+             </div>
+           </div>
+           <div class="col-12 col-md-6 col-lg-3">
+             <div class="menu-item-card shadow p-3 mb-3">
+               <img
+                 src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/em-soup-img.png"
+                 class="menu-item-image w-100"
+                 alt="Soups"
+               />
+               <h3 class="menu-card-title">Soups</h3>
+               <a href="#" class="menu-item-link">
+                 View All
+                 <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                   <path
+                     fill-rule="evenodd"
+                     d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                   />
+                 </svg>
+               </a>
+             </div>
+           </div>
+           <div class="col-12 col-md-6 col-lg-3">
+             <div class="menu-item-card shadow p-3 mb-3">
+               <img
+                 src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/em-grilled-seafood-img.png"
+                 class="menu-item-image w-100"
+                 alt="Fish & Sea food"
+               />
+               <h3 class="menu-card-title">Fish & Sea food</h3>
+               <a href="#" class="menu-item-link">
+                 View All
+                 <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                   <path
+                     fill-rule="evenodd"
+                     d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                   />
+                 </svg>
+               </a>
+             </div>
+           </div>
+           <div class="col-12 col-md-6 col-lg-3">
+             <div class="menu-item-card shadow p-3 mb-3">
+               <img
+                 src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/em-hyderabadi-biryani-img.png"
+                 class="menu-item-image w-100"
+                 alt="Main Course"
+               />
+               <h3 class="menu-card-title">Main Course</h3>
+               <a href="#" class="menu-item-link">
+                 View All
+                 <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                   <path
+                     fill-rule="evenodd"
+                     d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                   />
+                 </svg>
+               </a>
+             </div>
+           </div>
+           <div class="col-12 col-md-6 col-lg-3">
+             <div class="menu-item-card shadow p-3 mb-3">
+               <img
+                 src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/em-mushroom-noodles-img.png"
+                 class="menu-item-image w-100"
+                 alt="Noodles"
+               />
+               <h3 class="menu-card-title">Noodles</h3>
+               <a href="#" class="menu-item-link">
+                 View All
+                 <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                   <path
+                     fill-rule="evenodd"
+                     d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                   />
+                 </svg>
+               </a>
+             </div>
+           </div>
+           <div class="col-12 col-md-6 col-lg-3">
+             <div class="menu-item-card shadow p-3 mb-3">
+               <img
+                 src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/em-gluten-img.png"
+                 class="menu-item-image w-100"
+                 alt="Salads"
+               />
+               <h3 class="menu-card-title">Salads</h3>
+               <a href="#" class="menu-item-link">
+                 View All
+                 <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                   <path
+                     fill-rule="evenodd"
+                     d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                   />
+                 </svg>
+               </a>
+             </div>
+           </div>
+           <div class="col-12 col-md-6 col-lg-3">
+             <div class="menu-item-card shadow p-3 mb-3">
+               <img
+                 src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/em-coffee-bourbon-img.png"
+                 class="menu-item-image w-100"
+                 alt="Desserts"
+               />
+               <h3 class="menu-card-title">Desserts</h3>
+               <a href="#" class="menu-item-link">
+                 View All
+                 <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                   <path
+                     fill-rule="evenodd"
+                     d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                   />
+                 </svg>
+               </a>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+
+    <div id="healthy-food-section" class="pt-5 pb-5">
+         <div class="container">
+             <div class="row align-items-center">
+                 <div class="col-12 col-md-5">
+                     <div class="text-center">
+                         <img src="https://png.pngtree.com/png-clipart/20250427/original/pngtree-healthy-food-plate-with-fruits-and-vegetables-png-image_20850628.png" class="healthy-food-image" alt="Healthy Food Plate"/>
+                     </div>
+                 </div>
+                 <div class="col-12 col-md-7">
+                     <h2 class="healthy-food-heading">Fresh Healthy Organic Delicious Food</h2>
+                     <p class="healthy-food-description">We are committed to providing healthy and nutritious food options to our customers, using fresh ingredients and balanced recipes to promote wellness and well-being.</p>
+                     <div class="text-center">
+                         <button class="custome-food-button" onclick="document.getElementById('explore-menu-section').scrollIntoView({behavior: 'smooth'})">View Menu</button>
+                     </div>
+                 </div>
+             </div>
+         </div>
+    </div>
+
+    <div id="food-payment-section" class="pt-5 pb-5">
+         <div class="container">
+             <div class="row">
+                 <div class="col-12 text-center">
+                     <img src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/delivery-payment-section-img.png" class="payment-discount-logo" alt="Delivery & Payment"/>
+                     <h2 class="food-payment-heading">Delivery & Payment</h2>
+                     <p class="food-payment-description">We offer fast and reliable delivery services, ensuring your food arrives fresh and on time. We also provide secure and convenient payment options for a seamless ordering experience.</p>
+                     <button class="custome-food-button">Order Now</button>
+                 </div>
+                 <div class="col-12">
+                     <div class="payment-method-details text-center">
+                         <img src="https://cdn4.iconfinder.com/data/icons/payment-method/160/payment_method_card_visa-512.png" class="payment-method-logo" alt="Visa Card"/>
+                         <img src="https://static1.pocketlintimages.com/wordpress/wp-content/uploads/2024/08/google-pay-logo.jpg" class="payment-method-logo" alt="Google Pay"/>
+                         <img src="https://download.logo.wine/logo/PhonePe/PhonePe-Logo.wine.png" class="payment-method-logo" alt="PhonePe"/>
+                         <img src="https://tse1.mm.bing.net/th/id/OIP.iPcVDe87mw9ipTIkRCb8FAHaDQ?rs=1&pid=ImgDetMain&o=7&rm=3" class="payment-method-logo" alt="PayPal"/>
+                         <img src="https://pngimg.com/uploads/mastercard/mastercard_PNG23.png" class="payment-method-logo" alt="Mastercard"/>
+                     </div>
+                 </div>
+             </div>
+         </div>
+    </div>
+
+    <div id="testimonials-section" class="pt-5 pb-5">
+         <div class="container">
+             <div class="row">
+                 <div class="col-12">
+                     <h2 class="testimonials-heading">What Our Customers Say</h2>
+                     <p class="testimonials-description">Real reviews from our satisfied customers</p>
+                 </div>
+                 <div class="col-12 col-md-4">
+                     <div class="testimonial-card">
+                         <div class="stars">⭐⭐⭐⭐⭐</div>
+                         <p class="testimonial-text">"Amazing food quality and super fast delivery! Highly recommend this service."</p>
+                         <p class="testimonial-author">- Rajesh Kumar</p>
+                     </div>
+                 </div>
+                 <div class="col-12 col-md-4">
+                     <div class="testimonial-card">
+                         <div class="stars">⭐⭐⭐⭐⭐</div>
+                         <p class="testimonial-text">"Best food delivery app I've used. Fresh ingredients and delicious taste every time!"</p>
+                         <p class="testimonial-author">- Priya Singh</p>
+                     </div>
+                 </div>
+                 <div class="col-12 col-md-4">
+                     <div class="testimonial-card">
+                         <div class="stars">⭐⭐⭐⭐⭐</div>
+                         <p class="testimonial-text">"The variety of menu options is incredible. Something for everyone!"</p>
+                         <p class="testimonial-author">- Amit Patel</p>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+
+    <div id="faq-section" class="pt-5 pb-5">
+         <div class="container">
+             <div class="row">
+                 <div class="col-12">
+                     <h2 class="faq-heading">Frequently Asked Questions</h2>
+                 </div>
+                 <div class="col-12 col-md-6">
+                     <div class="faq-item">
+                         <h3 class="faq-question">How long does delivery take?</h3>
+                         <p class="faq-answer">Our average delivery time is 30-45 minutes depending on your location and current demand.</p>
+                     </div>
+                     <div class="faq-item">
+                         <h3 class="faq-question">Do you offer vegetarian options?</h3>
+                         <p class="faq-answer">Yes! We have a wide variety of vegetarian and vegan dishes available.</p>
+                     </div>
+                     <div class="faq-item">
+                         <h3 class="faq-question">What's your minimum order value?</h3>
+                         <p class="faq-answer">There's no minimum order value. You can order as little as you want!</p>
+                     </div>
+                 </div>
+                 <div class="col-12 col-md-6">
+                     <div class="faq-item">
+                         <h3 class="faq-question">Can I modify my order?</h3>
+                         <p class="faq-answer">Yes, you can modify your order within 2 minutes of placing it. Contact our support team.</p>
+                     </div>
+                     <div class="faq-item">
+                         <h3 class="faq-question">What are your payment options?</h3>
+                         <p class="faq-answer">We accept Visa, Mastercard, Google Pay, PhonePe, UPI, and Cash on Delivery.</p>
+                     </div>
+                     <div class="faq-item">
+                         <h3 class="faq-question">Is there a loyalty program?</h3>
+                         <p class="faq-answer">Yes! Earn points with every order and redeem them for exclusive discounts.</p>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+
+    <div class="thanking-customer-section pt-5 pb-5">
+         <div class="container">
+             <div class="row">
+                 <div class="col-12">
+                     <h2 class="thanking-customer-heading">Thank you for being a valued customer!</h2>
+                 </div>
+                 <div class="col-12">
+                     <p class="thanking-customer-description">We appreciate your business and look forward to serving you again soon. We have a special gift for you!</p>
+                 </div>
+                 <div class="col-12 text-center">
+                     <img src="https://static.vecteezy.com/system/resources/previews/032/307/643/non_2x/candy-box-pack-generative-ai-free-photo.jpg" class="gift-customer-logo" alt="Gift Box"/>
+                 </div>
+                 <div class="col-12 text-center pt-5">
+                     <!-- Button trigger modal -->
+                      <button type="button" class="custome-food-button" data-toggle="modal" data-target="#exampleModal">
+                        Claim Your Gift
+                        </button>
+
+                      <!-- Modal -->
+                       <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                         <div class="modal-dialog mt-5">
+                          <div class="modal-content">
+                             <div class="modal-header">
+                                 <h5 class="modal-title gift-voucher-heading"  id="exampleModalLabel">Gift Voucher</h5>
+                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                      </button>
+                               </div>
+                              <div class="modal-body">
+                                  <img src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/gift-voucher-img.png"
+                        class="gift-voucher-image w-100" alt="Gift Voucher"/>
+                                  <p class="gift-voucher-description">Congratulations! You've received a special gift voucher for your next order. Use the code below to enjoy a delicious meal on us!</p>
+                            </div>
+                          <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                    </div>
+                      </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+
+    <div id="follow-us-section" class="pt-5 pb-5">
+         <div class="container">
+             <div class="row">
+                 <div class="col-12">
+                     <h2 class="follow-us-heading">Follow Us</h2>
+                     <p class="follow-us-description">Stay connected with us on social media to get the latest updates, promotions, and delicious food inspiration.</p>
+                 </div>
+                 <div class="col-12 text-center">
+                     <a href="https://facebook.com" class="social-media-link" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                     <a href="https://twitter.com" class="social-media-link" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                     <a href="https://instagram.com" class="social-media-link" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                     <a href="https://linkedin.com" class="social-media-link" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                     <a href="https://youtube.com" class="social-media-link" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                 </div>
+             </div>
+         </div>
+     </div>
+
+    <footer class="footer-section pt-3 pb-3">
+         <div class="container">
+             <div class="row">
+                 <div class="col-12 text-center">
+                  <img src="https://www.shutterstock.com/image-vector/food-truck-company-logo-design-260nw-2308781077.jpg" class="footer-logo" alt="Fresh Food Logo"/>
+                  <h1 class="footer-heading">Fresh Food Track Delivery</h1>
+                     <p class="footer-text"> 2026 Fresh Food Track Delivery. All rights reserved.</p>
+                 </div>
+             </div>
+         </div>
+     </footer>
+
+</body>
+</html>
